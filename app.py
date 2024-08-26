@@ -39,7 +39,7 @@ def main(stdscr):
     curses.curs_set(0)
     stdscr.nodelay(True)
 
-    food = Food((width - 1, height - 2))
+    food = Food((width - 2, height - 1))
 
     update_level(1)
 
