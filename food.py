@@ -4,8 +4,6 @@ from random import randint
 class Food:
     count = 2
     flag = 3
-    _best_before_date = 8
-    _cooking_time = 4
     _food = set()
 
     def __init__(self, box_size):
